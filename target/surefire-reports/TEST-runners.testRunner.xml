@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.testRunner" time="149.418" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\afift\main-java\automationSeleniumUI\target\test-classes;C:\Users\afift\main-java\automationSeleniumUI\target\classes;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\afift\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\afift\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\afift\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\afift\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\afift\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\afift\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\afift\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\afift\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\afift\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\afift\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\afift\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\afift\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\afift\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-java\7.17.0\cucumber-java-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-core\7.17.0\cucumber-core-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-gherkin\7.17.0\cucumber-gherkin-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.17.0\cucumber-gherkin-messages-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\afift\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\afift\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\datatable\7.17.0\datatable-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-plugin\7.17.0\cucumber-plugin-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\docstring\7.17.0\docstring-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\afift\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\afift\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\afift\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-junit\7.17.0\cucumber-junit-7.17.0.jar;C:\Users\afift\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\afift\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\afift\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\afift\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\afift\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\afift\AppData\Local\Temp\surefire7730958991541336751\surefirebooter-20251024150551663_3.jar C:\Users\afift\AppData\Local\Temp\surefire7730958991541336751 2025-10-24T15-05-51_505-jvmRun1 surefire-20251024150551663_1tmp surefire_0-20251024150551663_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\afift\main-java\automationSeleniumUI\target\test-classes;C:\Users\afift\main-java\automationSeleniumUI\target\classes;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\afift\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\afift\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\afift\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\afift\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\afift\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\afift\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\afift\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\afift\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\afift\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\afift\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\afift\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\afift\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\afift\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\afift\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\afift\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-java\7.17.0\cucumber-java-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-core\7.17.0\cucumber-core-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-gherkin\7.17.0\cucumber-gherkin-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.17.0\cucumber-gherkin-messages-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\afift\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\afift\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\afift\.m2\repository\io\cucumber\datatable\7.17.0\datatable-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-plugin\7.17.0\cucumber-plugin-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\docstring\7.17.0\docstring-7.17.0.jar;C:\Users\afift\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\afift\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\afift\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\afift\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\afift\.m2\repository\io\cucumber\cucumber-junit\7.17.0\cucumber-junit-7.17.0.jar;C:\Users\afift\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\afift\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\afift\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\afift\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\afift\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\afift"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\afift\main-java\automationSeleniumUI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\afift\AppData\Local\Temp\surefire7730958991541336751\surefirebooter-20251024150551663_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="afift"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\afift\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\afift\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="cucumber.filter.tags" value="@checkout"/>
+    <property name="user.dir" value="C:\Users\afift\main-java\automationSeleniumUI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\afift\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Java\jdk-24.0.2\bin;C:\Program Files\Maven\apache-maven-3.9.11\bin;C:\Users\afift\AppData\Local\Microsoft\WindowsApps;C:\Users\afift\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\afift\AppData\Roaming\npm;C:\Users\afift\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\afift\AppData\Local\nvm;C:\nvm4w\nodejs;c:\Users\afift\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="User Checkout with single trip onboadring #1" classname="Flight Checkout" time="40.837">
+    <system-out><![CDATA[
+@checkout
+Scenario Outline: User Checkout with single trip onboadring         # src/test/resources/features/checkout.feature:17
+Current URL: data:,
+success fill data flight schedule
+ini url flight: https://www.agoda.com/flights
+ini data load: jakarta
+ini data load: CGK
+ini data load: singapore
+ini data load: SIN
+Berhasil ke Tab FLight
+  Given user on flight tab                                          # stepdefs.dicoSteps.user_on_flight_tab()
+ini udah dapet SIN
+success fill origin dan destination
+✅ Date selected: 2025-10-25
+success to get date -> tomorrow
+  When user had input flight detail                                 # stepdefs.dicoSteps.user_had_input_flight_detail()
+✅ Passengers set: Adult=1, Child=0, Infant=0
+  And user sets passengers adult 1 child 0 infant 0                 # stepdefs.dicoSteps.user_sets_passengers(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+✅ Cabin set: economy
+  And user sets flight category "economy"                           # stepdefs.dicoSteps.userSetsFlightCategory(java.lang.String)
+
+=== ✈️ Flight Search Result for: Indonesia AirAsia ===
+Index: 5 | Airline: Indonesia AirAsia | Price: 1,280,062
+Index: 7 | Airline: Indonesia AirAsia | Price: 1,357,913
+Index: 8 | Airline: Indonesia AirAsia | Price: 1,357,913
+                                  
+Lowest flight index to click: 5
+Selected flight: Indonesia AirAsia | Price: 1,280,062
+Clicked select button for flight index: 5
+  And user search and select cheapest flight of "Indonesia AirAsia" # stepdefs.dicoSteps.userSearchFlight(java.lang.String)
+===== This is Final Booking Data for Assertion =====
+===== Latest Flight Booking Data: Indonesia AirAsia | 1,280,062 =====
+===== Latest Passenger Data: 1 Adults | 0 Children | 0 Infants =====
+success load data on booking information page
+passengerCategory: (Adult)
+Passport issue field is not Exist.
+Actual Total Final Price: Rp 1,280,062
+Submit form
+  And user fill data on booking information page                    # stepdefs.bookingInfoSteps.user_fill_data_on_booking_information_page()
+==========  PAYMENT CHECK   ==========
+Booking info validation successful!
+Name: John Doe
+Email: john.doe@mail.com
+Flight: Indonesia AirAsia
+Price: Rp 1,280,062
+Total Passengers: 1
+  Then user validate the detail order on payment check page         # stepdefs.paymentCheckSteps.user_click_payment_button()
+==== Driver closed - Testing Completed ====
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2025 3:05:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 24, 2025 3:05:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 141.0.7390.109. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User Checkout with single trip onboadring #2" classname="Flight Checkout" time="65.726">
+    <system-out><![CDATA[
+@checkout
+Scenario Outline: User Checkout with single trip onboadring         # src/test/resources/features/checkout.feature:18
+Current URL: data:,
+success fill data flight schedule
+ini url flight: https://www.agoda.com/flights
+ini data load: jakarta
+ini data load: CGK
+ini data load: singapore
+ini data load: SIN
+Berhasil ke Tab FLight
+  Given user on flight tab                                          # stepdefs.dicoSteps.user_on_flight_tab()
+ini udah dapet SIN
+success fill origin dan destination
+✅ Date selected: 2025-10-25
+success to get date -> tomorrow
+  When user had input flight detail                                 # stepdefs.dicoSteps.user_had_input_flight_detail()
+✅ Passengers set: Adult=2, Child=1, Infant=1
+  And user sets passengers adult 2 child 1 infant 1                 # stepdefs.dicoSteps.user_sets_passengers(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+✅ Cabin set: economy
+  And user sets flight category "economy"                           # stepdefs.dicoSteps.userSetsFlightCategory(java.lang.String)
+
+=== ✈️ Flight Search Result for: Indonesia AirAsia ===
+Index: 4 | Airline: Indonesia AirAsia | Price: 1,045,580
+Index: 5 | Airline: Indonesia AirAsia | Price: 1,104,755
+Index: 6 | Airline: Indonesia AirAsia | Price: 1,104,755
+                                  
+Lowest flight index to click: 4
+Selected flight: Indonesia AirAsia | Price: 1,045,580
+Clicked select button for flight index: 4
+  And user search and select cheapest flight of "Indonesia AirAsia" # stepdefs.dicoSteps.userSearchFlight(java.lang.String)
+===== This is Final Booking Data for Assertion =====
+===== Latest Flight Booking Data: Indonesia AirAsia | 1,045,580 =====
+===== Latest Passenger Data: 2 Adults | 1 Children | 1 Infants =====
+success load data on booking information page
+passengerCategory: (Adult)
+Passport issue field.
+passengerCategory: (Adult)
+Passport issue field.
+passengerCategory: (Child)
+Passport issue field.
+passengerCategory: (Infant)
+Passport issue field.
+Actual Total Final Price: Rp 4,182,321
+Submit form
+  And user fill data on booking information page                    # stepdefs.bookingInfoSteps.user_fill_data_on_booking_information_page()
+==========  PAYMENT CHECK   ==========
+Booking info validation successful!
+Name: John Doe
+Email: john.doe@mail.com
+Flight: Indonesia AirAsia
+Price: Rp 4,182,321
+Total Passengers: 4
+  Then user validate the detail order on payment check page         # stepdefs.paymentCheckSteps.user_click_payment_button()
+==== Driver closed - Testing Completed ====
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2025 3:06:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 24, 2025 3:06:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 141.0.7390.109. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="User Checkout with single trip onboadring #3" classname="Flight Checkout" time="42.62">
+    <system-out><![CDATA[
+@checkout
+Scenario Outline: User Checkout with single trip onboadring        # src/test/resources/features/checkout.feature:19
+Current URL: data:,
+success fill data flight schedule
+ini url flight: https://www.agoda.com/flights
+ini data load: jakarta
+ini data load: CGK
+ini data load: singapore
+ini data load: SIN
+Berhasil ke Tab FLight
+  Given user on flight tab                                         # stepdefs.dicoSteps.user_on_flight_tab()
+ini udah dapet SIN
+success fill origin dan destination
+✅ Date selected: 2025-10-25
+success to get date -> tomorrow
+  When user had input flight detail                                # stepdefs.dicoSteps.user_had_input_flight_detail()
+✅ Passengers set: Adult=1, Child=2, Infant=1
+  And user sets passengers adult 1 child 2 infant 1                # stepdefs.dicoSteps.user_sets_passengers(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+✅ Cabin set: business
+  And user sets flight category "business"                         # stepdefs.dicoSteps.userSetsFlightCategory(java.lang.String)
+
+=== ✈️ Flight Search Result for: Garuda Indonesia ===
+Index: 6 | Airline: Garuda Indonesia | Price: 6,077,510
+Index: 7 | Airline: Garuda Indonesia | Price: 6,077,510
+Index: 8 | Airline: Garuda Indonesia | Price: 6,077,510
+                                  
+Lowest flight index to click: 6
+Selected flight: Garuda Indonesia | Price: 6,077,510
+Clicked select button for flight index: 6
+  And user search and select cheapest flight of "Garuda Indonesia" # stepdefs.dicoSteps.userSearchFlight(java.lang.String)
+===== This is Final Booking Data for Assertion =====
+===== Latest Flight Booking Data: Garuda Indonesia | 6,077,510 =====
+===== Latest Passenger Data: 1 Adults | 2 Children | 1 Infants =====
+success load data on booking information page
+passengerCategory: (Adult)
+Passport issue field is not Exist.
+passengerCategory: (Child)
+Passport issue field is not Exist.
+passengerCategory: (Child)
+Passport issue field is not Exist.
+passengerCategory: (Infant)
+Passport issue field is not Exist.
+Actual Total Final Price: Rp 24,310,040
+Submit form
+  And user fill data on booking information page                   # stepdefs.bookingInfoSteps.user_fill_data_on_booking_information_page()
+==========  PAYMENT CHECK   ==========
+Booking info validation successful!
+Name: John Doe
+Email: john.doe@mail.com
+Flight: Garuda Indonesia
+Price: Rp 24,310,040
+Total Passengers: 4
+  Then user validate the detail order on payment check page        # stepdefs.paymentCheckSteps.user_click_payment_button()
+==== Driver closed - Testing Completed ====
+]]></system-out>
+    <system-err><![CDATA[Oct 24, 2025 3:07:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 24, 2025 3:07:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 141.0.7390.109. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\helpers\bookingDataHelper.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\helpers\globalData.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\hooks\hook.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\pages\bookingInfoPage.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\pages\components\bookingInfoComponents.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\pages\components\discoPageComponents.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\pages\discoPage.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\pages\paymentCheckPage.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\runners\testRunner.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\stepdefs\bookingInfoSteps.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\stepdefs\dicoSteps.java
+C:\Users\afift\main-java\automationSeleniumUI\src\test\java\stepdefs\paymentCheckSteps.java

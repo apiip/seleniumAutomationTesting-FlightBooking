@@ -1,0 +1,12 @@
+helpers\globalData.class
+pages\components\bookingInfoComponents.class
+stepdefs\paymentCheckSteps.class
+hooks\hook.class
+runners\testRunner.class
+pages\bookingInfoPage.class
+pages\components\discoPageComponents.class
+pages\discoPage.class
+stepdefs\bookingInfoSteps.class
+helpers\bookingDataHelper.class
+stepdefs\dicoSteps.class
+pages\paymentCheckPage.class
