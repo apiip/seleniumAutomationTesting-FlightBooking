@@ -2,8 +2,8 @@
 
 ## Deskripsi
 
-Proyek ini adalah **Automation Testing Framework** untuk aplikasi pemesanan tiket pesawat menggunakan **Selenium WebDriver**.  
-Framework ini dibangun dengan **Pendekatan Page Object Model (POM)** sehingga mudah dipelihara, scalable, dan mendukung berbagai kombinasi input.
+**Automation Testing Framework** untuk aplikasi pemesanan tiket pesawat menggunakan **Selenium WebDriver**.  
+> Framework ini dibangun dengan **Pendekatan Page Object Model (POM)** sehingga mudah dipelihara, scalable, dan mendukung berbagai kombinasi input.
 
 ---
 
